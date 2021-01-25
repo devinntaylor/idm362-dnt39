@@ -97,33 +97,31 @@
                             <constraint firstItem="70V-ib-KTZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jsq-Yr-yoT" secondAttribute="trailing" constant="8" symbolic="YES" id="5V2-lQ-v0Z"/>
                             <constraint firstItem="jsq-Yr-yoT" firstAttribute="top" secondItem="kyR-NH-mr5" secondAttribute="bottom" constant="45" id="5xM-zh-Hmt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2kB-hq-Pal" secondAttribute="bottom" constant="28" id="B4I-F7-COR"/>
+                            <constraint firstItem="cox-sI-LSS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ByG-h2-agF"/>
                             <constraint firstItem="kyR-NH-mr5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="C0w-Qp-Yf6"/>
                             <constraint firstItem="2kB-hq-Pal" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="Cfp-j3-bEs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="70V-ib-KTZ" secondAttribute="trailing" constant="20" id="EOZ-Oi-ARW"/>
                             <constraint firstItem="Jri-wS-UkO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Fkl-gc-eAb"/>
                             <constraint firstItem="rWi-bq-k0M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fva-df-51s"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QII-kw-rKL" secondAttribute="trailing" constant="138" id="JDE-VE-c03"/>
-                            <constraint firstItem="QII-kw-rKL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="JqI-aI-BzP"/>
+                            <constraint firstItem="Jri-wS-UkO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JMm-9U-TOl"/>
                             <constraint firstItem="CVA-aW-sRi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LWv-z6-enh"/>
                             <constraint firstItem="mIN-jI-bmE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rWi-bq-k0M" secondAttribute="trailing" constant="8" symbolic="YES" id="NXq-al-Je1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jri-wS-UkO" secondAttribute="trailing" constant="151" id="POK-Xi-vIB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOw-yl-KNA" secondAttribute="trailing" constant="16" id="Q7J-8I-735"/>
                             <constraint firstItem="CVA-aW-sRi" firstAttribute="top" secondItem="cox-sI-LSS" secondAttribute="bottom" constant="10" id="ThT-nE-C7u"/>
                             <constraint firstItem="3QQ-kj-m6b" firstAttribute="top" secondItem="mIN-jI-bmE" secondAttribute="bottom" constant="35" id="Ume-l8-4UB"/>
                             <constraint firstItem="jsq-Yr-yoT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VAp-Tw-zcJ"/>
+                            <constraint firstItem="QII-kw-rKL" firstAttribute="top" secondItem="Jri-wS-UkO" secondAttribute="bottom" constant="45" id="YhK-f0-LwF"/>
                             <constraint firstItem="70V-ib-KTZ" firstAttribute="top" secondItem="3QQ-kj-m6b" secondAttribute="bottom" constant="35" id="Z9K-Ow-HFJ"/>
-                            <constraint firstItem="QII-kw-rKL" firstAttribute="top" secondItem="Jri-wS-UkO" secondAttribute="bottom" constant="45" id="ZIH-rE-vuN"/>
                             <constraint firstItem="mIN-jI-bmE" firstAttribute="top" secondItem="ZOw-yl-KNA" secondAttribute="bottom" constant="40" id="aQy-CY-aN0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2kB-hq-Pal" secondAttribute="trailing" constant="171" id="apa-XT-eo5"/>
                             <constraint firstItem="3QQ-kj-m6b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kyR-NH-mr5" secondAttribute="trailing" constant="8" symbolic="YES" id="eI6-wz-hjI"/>
+                            <constraint firstItem="QII-kw-rKL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gsi-T8-43q"/>
                             <constraint firstItem="cox-sI-LSS" firstAttribute="top" secondItem="ZOw-yl-KNA" secondAttribute="bottom" constant="279" id="hE0-4f-uP9"/>
-                            <constraint firstItem="Jri-wS-UkO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="k6G-Jg-WvR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mIN-jI-bmE" secondAttribute="trailing" constant="20" id="lFi-Hs-kjb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CVA-aW-sRi" secondAttribute="trailing" constant="20" id="pR2-Io-SSb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3QQ-kj-m6b" secondAttribute="trailing" constant="20" id="qad-QC-Qcr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cox-sI-LSS" secondAttribute="trailing" constant="163" id="t3X-Co-yvi"/>
-                            <constraint firstItem="cox-sI-LSS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="163" id="tmj-FK-TLM"/>
                             <constraint firstItem="ZOw-yl-KNA" firstAttribute="top" secondItem="QII-kw-rKL" secondAttribute="bottom" constant="20" id="uXe-Q3-8oe"/>
+                            <constraint firstItem="cox-sI-LSS" firstAttribute="top" secondItem="ZOw-yl-KNA" secondAttribute="bottom" constant="279" id="vDh-WE-E6b"/>
                             <constraint firstItem="rWi-bq-k0M" firstAttribute="top" secondItem="ZOw-yl-KNA" secondAttribute="bottom" constant="45" id="xIW-TZ-slH"/>
                         </constraints>
                     </view>
