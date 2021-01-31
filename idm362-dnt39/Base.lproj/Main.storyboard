@@ -17,16 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihc-D7-lbN">
-                                <rect key="frame" x="152" y="318" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihc-D7-lbN">
+                                <rect key="frame" x="152" y="318" width="71" height="31"/>
                                 <state key="normal" title="Click Here"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2a5-7y-OOu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ihc-D7-lbN" firstAttribute="top" secondItem="2a5-7y-OOu" secondAttribute="top" constant="318" id="ecW-OJ-y30"/>
+                            <constraint firstItem="ihc-D7-lbN" firstAttribute="centerX" secondItem="Vij-kn-7Ou" secondAttribute="centerX" id="mcO-An-1XN"/>
+                            <constraint firstItem="ihc-D7-lbN" firstAttribute="centerY" secondItem="Vij-kn-7Ou" secondAttribute="centerY" id="rvI-3M-U74"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="smiley.fill" catalog="system" selectedImage="smiley.fill" id="iLU-fA-KJC">
+                    <tabBarItem key="tabBarItem" title="Profile" image="face.smiling.fill" catalog="system" selectedImage="face.smiling.fill" id="iLU-fA-KJC">
                         <color key="badgeColor" name="AccentColor"/>
                     </tabBarItem>
                 </viewController>
@@ -82,8 +86,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="face.smiling.fill" catalog="system" width="128" height="121"/>
         <image name="heroImage" width="300.5" height="300.5"/>
-        <image name="smiley.fill" catalog="system" width="128" height="121"/>
         <image name="sparkles" catalog="system" width="112" height="128"/>
         <namedColor name="AccentColor">
             <color red="0.20000000000000001" green="0.031372549019607843" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
