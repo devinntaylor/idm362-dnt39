@@ -258,7 +258,7 @@
     <resources>
         <image name="face.smiling.fill" catalog="system" width="128" height="121"/>
         <image name="headphones" catalog="system" width="128" height="107"/>
-        <image name="heroImage" width="301" height="301"/>
+        <image name="heroImage" width="300.5" height="300.5"/>
         <image name="hourglass" catalog="system" width="109" height="128"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="sparkles" catalog="system" width="112" height="128"/>
