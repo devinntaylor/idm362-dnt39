@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "blob@1x.png",
+      "filename" : "Vector1@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "blob@2x.png",
+      "filename" : "Vector1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "blob@3x.png",
+      "filename" : "Vector1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
