@@ -13,7 +13,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    var toggleFlag: Bool = true
+    
+    @IBOutlet weak var timeBtn: UIButton!
+    
+    @IBAction func timeBtnFun(_ sender: Any) {
+        if (toggleFlag == true) {
+            timeBtn.tintColor = UIColor.init(named: "AccentColor")
+            toggleFlag = true
+        } else {
+            timeBtn.tintColor = UIColor.init(named: "darkMode")
+            toggleFlag = false
+        }
+    }
+    
 }
 
