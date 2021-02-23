@@ -20,7 +20,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Profile-->
+        <!--Stats-->
         <scene sceneID="dWj-d3-inS">
             <objects>
                 <viewController id="QmL-ZB-MDO" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbp-xE-Tp8">
-                                <rect key="frame" x="108.5" y="234" width="43" height="20"/>
+                                <rect key="frame" x="108.5" y="234" width="43.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -155,7 +155,7 @@
                             <constraint firstItem="Y1Y-Wp-Qaq" firstAttribute="leading" secondItem="H4G-nN-MVb" secondAttribute="trailing" constant="8" symbolic="YES" id="db8-JF-Q0C"/>
                             <constraint firstItem="Iqx-Z3-1te" firstAttribute="top" secondItem="cFI-Lb-AhP" secondAttribute="bottom" constant="8" symbolic="YES" id="eS8-8O-X1v"/>
                             <constraint firstItem="Dbp-xE-Tp8" firstAttribute="leading" secondItem="e3n-Ty-Rsp" secondAttribute="trailing" constant="8" symbolic="YES" id="euO-Tp-PJu"/>
-                            <constraint firstItem="2a5-7y-OOu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dbp-xE-Tp8" secondAttribute="trailing" constant="220" id="hFz-Zn-xLO"/>
+                            <constraint firstItem="Dbp-xE-Tp8" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2a5-7y-OOu" secondAttribute="trailing" constant="100" id="hFz-Zn-xLO"/>
                             <constraint firstItem="KWq-Kv-Vho" firstAttribute="top" secondItem="XMG-XF-1LC" secondAttribute="bottom" constant="32" id="iYM-E2-aUL"/>
                             <constraint firstItem="Iqx-Z3-1te" firstAttribute="top" secondItem="cFI-Lb-AhP" secondAttribute="bottom" constant="8" id="j3B-gK-edY"/>
                             <constraint firstItem="2a5-7y-OOu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6ug-c8-Uqe" secondAttribute="trailing" symbolic="YES" id="j9m-PU-qim"/>
@@ -172,7 +172,7 @@
                             <constraint firstItem="KWq-Kv-Vho" firstAttribute="top" secondItem="t2L-7J-SXy" secondAttribute="bottom" constant="87" id="zhc-Wb-51Z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="face.smiling.fill" catalog="system" selectedImage="face.smiling.fill" id="iLU-fA-KJC">
+                    <tabBarItem key="tabBarItem" title="Stats" image="checkmark.seal" catalog="system" selectedImage="checkmark.seal" id="iLU-fA-KJC">
                         <color key="badgeColor" name="AccentColor"/>
                     </tabBarItem>
                 </viewController>
@@ -315,7 +315,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="face.smiling.fill" catalog="system" width="128" height="121"/>
+        <image name="checkmark.seal" catalog="system" width="128" height="128"/>
         <image name="headphones" catalog="system" width="128" height="107"/>
         <image name="heroImage" width="260" height="272"/>
         <image name="hourglass" catalog="system" width="109" height="128"/>

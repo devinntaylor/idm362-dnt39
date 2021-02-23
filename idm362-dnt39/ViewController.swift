@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     
     @IBAction func timeBtnFun(_ sender: Any) {
         if (toggleFlag == true) {
-            timeBtn.tintColor = UIColor.init(named: "AccentColor")
+            timeBtn.backgroundColor = UIColor.init(named: "AccentColor")
             toggleFlag = true
         } else {
-            timeBtn.tintColor = UIColor.init(named: "darkMode")
+            timeBtn.backgroundColor = UIColor.init(named: "darkMode")
             toggleFlag = false
         }
     }
