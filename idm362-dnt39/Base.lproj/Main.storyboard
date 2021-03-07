@@ -96,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbp-xE-Tp8">
-                                <rect key="frame" x="108" y="234" width="44" height="20"/>
+                                <rect key="frame" x="108.5" y="234" width="43" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -207,13 +207,6 @@
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heroImage" translatesAutoresizingMaskIntoConstraints="NO" id="lzl-qJ-66Z">
-                                <rect key="frame" x="12.5" y="105" width="350" height="350"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="350" id="XCj-OI-Cwe"/>
-                                    <constraint firstAttribute="height" constant="350" id="kUx-tQ-Zni"/>
-                                </constraints>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="asn-ZY-8nX">
                                 <rect key="frame" x="20" y="535" width="335" height="40"/>
                                 <subviews>
@@ -265,28 +258,36 @@
                                     <constraint firstAttribute="width" secondItem="asn-ZY-8nX" secondAttribute="height" multiplier="67:8" id="jgz-MN-Nfz"/>
                                 </constraints>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BreatheSequence/1" translatesAutoresizingMaskIntoConstraints="NO" id="rVR-wr-WoI">
+                                <rect key="frame" x="12" y="105" width="351" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="IXo-ia-afZ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OFv-L9-wtJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="asn-ZY-8nX" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="20" id="61p-D7-qSl"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="12" id="8Rh-tp-gSd"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" secondItem="asn-ZY-8nX" secondAttribute="trailing" constant="20" id="BoU-OT-vsq"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="bottom" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="111" id="Brz-jk-rbY"/>
                             <constraint firstItem="fZ4-lB-VVK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="16" id="FbU-B0-I2g"/>
-                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerX" secondItem="lzl-qJ-66Z" secondAttribute="centerX" id="FzY-FX-1Dv"/>
                             <constraint firstItem="fZ4-lB-VVK" firstAttribute="top" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="50" id="MYA-HB-slZ"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fZ4-lB-VVK" secondAttribute="trailing" symbolic="YES" id="O3S-gr-PAy"/>
                             <constraint firstItem="Sj7-nr-mse" firstAttribute="centerX" secondItem="DkU-ly-d0t" secondAttribute="centerX" id="OqP-VY-HMY"/>
-                            <constraint firstItem="lzl-qJ-66Z" firstAttribute="centerY" secondItem="OFv-L9-wtJ" secondAttribute="centerY" constant="-29" id="RW7-gg-5Fr"/>
-                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerY" secondItem="lzl-qJ-66Z" secondAttribute="centerY" id="jKF-Bu-Q9K"/>
+                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerX" secondItem="rVR-wr-WoI" secondAttribute="centerX" id="cPt-vP-x0n"/>
+                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerX" secondItem="Sj7-nr-mse" secondAttribute="centerX" id="f61-7d-ZLt"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="fZ4-lB-VVK" secondAttribute="bottom" constant="19" id="qNq-Qs-PUd"/>
+                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerY" secondItem="rVR-wr-WoI" secondAttribute="centerY" id="qs2-bc-NzF"/>
                             <constraint firstItem="asn-ZY-8nX" firstAttribute="top" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="28" id="tFL-Ac-mmp"/>
-                            <constraint firstItem="lzl-qJ-66Z" firstAttribute="centerX" secondItem="OFv-L9-wtJ" secondAttribute="centerX" id="zQo-Yl-0TX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="wind" catalog="system" selectedImage="wind" id="5Ev-Nw-LAq">
                         <color key="badgeColor" name="AccentColor"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="breatheAnim" destination="rVR-wr-WoI" id="jT2-77-evf"/>
                         <outlet property="timeBtn" destination="aOt-ct-38y" id="QWX-m2-3Xc"/>
                     </connections>
                 </viewController>
@@ -315,6 +316,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BreatheSequence/1" width="800" height="800"/>
         <image name="checkmark.seal" catalog="system" width="128" height="128"/>
         <image name="headphones" catalog="system" width="128" height="107"/>
         <image name="heroImage" width="260" height="272"/>

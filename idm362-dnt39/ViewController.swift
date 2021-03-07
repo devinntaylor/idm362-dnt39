@@ -8,11 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
     
     var toggleFlag: Bool = true
     
@@ -26,6 +21,31 @@ class ViewController: UIViewController {
             timeBtn.backgroundColor = UIColor.init(named: "darkMode")
             toggleFlag = false
         }
+    }
+    
+    @IBOutlet weak var breatheAnim: UIImageView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do after loading.
+        breatheAnim.animationImages = loadImages(for: "BreatheSequence")
+        breatheAnim.animationDuration = 10
+        breatheAnim.animationRepeatCount = 6
+        breatheAnim.image = breatheAnim.animationImages?.first
+        breatheAnim.startAnimating()
+    }
+    
+    func loadImages(for name: String) -> [UIImage] {
+        print("Animated Images Loader Called")
+        var images = [UIImage]()
+        var lp = 1
+        print("image array before \(images)")
+        while let image = UIImage(named: "\(name)/\(lp)") {
+            images.append(image)
+            lp += 1
+        }
+        print("image array after \(images)")
+        return images
     }
     
 }
