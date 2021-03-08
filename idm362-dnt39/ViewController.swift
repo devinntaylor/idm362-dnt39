@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBAction func timeBtnFun(_ sender: Any) {
         if (toggleFlag == true) {
+            breatheAnim.startAnimating()
             timeBtn.backgroundColor = UIColor.init(named: "AccentColor")
             toggleFlag = true
         } else {
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
         breatheAnim.animationDuration = 10
         breatheAnim.animationRepeatCount = 6
         breatheAnim.image = breatheAnim.animationImages?.first
-        breatheAnim.startAnimating()
+//        breatheAnim.startAnimating()
     }
     
     func loadImages(for name: String) -> [UIImage] {
@@ -49,4 +50,3 @@ class ViewController: UIViewController {
     }
     
 }
-

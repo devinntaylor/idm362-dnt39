@@ -18,6 +18,9 @@
         <array key="Apercu-Medium.ttf">
             <string>Apercu-Medium</string>
         </array>
+        <array key="Apercu.ttf">
+            <string>Apercu</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Stats-->
@@ -77,8 +80,8 @@
                                     <constraint firstAttribute="width" constant="35" id="aU1-VZ-GSQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-Ty-Rsp">
-                                <rect key="frame" x="58" y="213" width="42.5" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-Ty-Rsp">
+                                <rect key="frame" x="58" y="213" width="24" height="48"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -96,7 +99,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbp-xE-Tp8">
-                                <rect key="frame" x="108.5" y="234" width="43" height="20"/>
+                                <rect key="frame" x="90" y="234" width="44" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -188,27 +191,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpg-eY-i7R">
-                                <rect key="frame" x="75" y="263.5" width="225" height="33"/>
-                                <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu-Light" pointSize="17"/>
-                                <state key="normal" title="Tap me to begin your exercise">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZ4-lB-VVK">
-                                <rect key="frame" x="16" y="50" width="82.5" height="36"/>
+                                <rect key="frame" x="25" y="34" width="82.5" height="44"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="30"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a length" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sj7-nr-mse">
-                                <rect key="frame" x="114.5" y="483" width="146.5" height="24"/>
+                                <rect key="frame" x="114.5" y="509" width="146.5" height="24"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="20"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="asn-ZY-8nX">
-                                <rect key="frame" x="20" y="535" width="335" height="40"/>
+                                <rect key="frame" x="20" y="549" width="335" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOt-ct-38y">
                                         <rect key="frame" x="0.0" y="0.0" width="101.5" height="40"/>
@@ -259,28 +255,41 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BreatheSequence/1" translatesAutoresizingMaskIntoConstraints="NO" id="rVR-wr-WoI">
-                                <rect key="frame" x="12" y="105" width="351" height="350"/>
+                                <rect key="frame" x="13" y="132" width="349" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="350" id="IXo-ia-afZ"/>
+                                    <constraint firstAttribute="height" constant="350" id="A50-q5-kNw"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="select a length and your exercise will begin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdT-56-bkK">
+                                <rect key="frame" x="25" y="86.5" width="325" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="QI3-7e-hnU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Apercu" family="Apercu" pointSize="16"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OFv-L9-wtJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="asn-ZY-8nX" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="20" id="61p-D7-qSl"/>
-                            <constraint firstItem="rVR-wr-WoI" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="12" id="8Rh-tp-gSd"/>
+                            <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wdT-56-bkK" secondAttribute="trailing" id="6r4-kY-OZH"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" secondItem="asn-ZY-8nX" secondAttribute="trailing" constant="20" id="BoU-OT-vsq"/>
-                            <constraint firstItem="OFv-L9-wtJ" firstAttribute="bottom" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="111" id="Brz-jk-rbY"/>
-                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="16" id="FbU-B0-I2g"/>
-                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="top" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="50" id="MYA-HB-slZ"/>
+                            <constraint firstItem="OFv-L9-wtJ" firstAttribute="bottom" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="85" id="Brz-jk-rbY"/>
+                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="25" id="FbU-B0-I2g"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="DkU-ly-d0t" secondAttribute="top" constant="132" id="LSe-M7-FS0"/>
+                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="top" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="34" id="MYA-HB-slZ"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="centerX" secondItem="Sj7-nr-mse" secondAttribute="centerX" id="NoC-hU-ysD"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fZ4-lB-VVK" secondAttribute="trailing" symbolic="YES" id="O3S-gr-PAy"/>
+                            <constraint firstItem="Sj7-nr-mse" firstAttribute="top" secondItem="rVR-wr-WoI" secondAttribute="bottom" constant="27" id="ObV-ih-nIM"/>
                             <constraint firstItem="Sj7-nr-mse" firstAttribute="centerX" secondItem="DkU-ly-d0t" secondAttribute="centerX" id="OqP-VY-HMY"/>
-                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerX" secondItem="rVR-wr-WoI" secondAttribute="centerX" id="cPt-vP-x0n"/>
-                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerX" secondItem="Sj7-nr-mse" secondAttribute="centerX" id="f61-7d-ZLt"/>
-                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="fZ4-lB-VVK" secondAttribute="bottom" constant="19" id="qNq-Qs-PUd"/>
-                            <constraint firstItem="Bpg-eY-i7R" firstAttribute="centerY" secondItem="rVR-wr-WoI" secondAttribute="centerY" id="qs2-bc-NzF"/>
-                            <constraint firstItem="asn-ZY-8nX" firstAttribute="top" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="28" id="tFL-Ac-mmp"/>
+                            <constraint firstItem="wdT-56-bkK" firstAttribute="top" secondItem="fZ4-lB-VVK" secondAttribute="bottom" constant="8.5" id="R5s-Z9-P9A"/>
+                            <constraint firstItem="wdT-56-bkK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="25" id="gvn-WY-7cL"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="wdT-56-bkK" secondAttribute="bottom" constant="25" id="qcw-J4-8Fc"/>
+                            <constraint firstItem="asn-ZY-8nX" firstAttribute="top" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="16" id="tFL-Ac-mmp"/>
+                            <constraint firstItem="wdT-56-bkK" firstAttribute="centerX" secondItem="DkU-ly-d0t" secondAttribute="centerX" id="uBU-jG-Pm1"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="13" id="ub4-JN-ohx"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="wind" catalog="system" selectedImage="wind" id="5Ev-Nw-LAq">
