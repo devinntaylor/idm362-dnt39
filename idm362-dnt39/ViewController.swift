@@ -15,12 +15,15 @@ class ViewController: UIViewController {
     
     @IBAction func timeBtnFun(_ sender: Any) {
         if (toggleFlag == true) {
+            print("Toggle ON")
             breatheAnim.startAnimating()
-            timeBtn.backgroundColor = UIColor.init(named: "AccentColor")
-            toggleFlag = true
-        } else {
-            timeBtn.backgroundColor = UIColor.init(named: "darkMode")
+            timeBtn.backgroundColor = UIColor.init(named: "StartAnim")
             toggleFlag = false
+        } else {
+            print("Toggle OFF")
+            breatheAnim.stopAnimating()
+            timeBtn.backgroundColor = UIColor.init(named: "StopAnim")
+            toggleFlag = true
         }
     }
     
@@ -33,7 +36,6 @@ class ViewController: UIViewController {
         breatheAnim.animationDuration = 10
         breatheAnim.animationRepeatCount = 6
         breatheAnim.image = breatheAnim.animationImages?.first
-//        breatheAnim.startAnimating()
     }
     
     func loadImages(for name: String) -> [UIImage] {
