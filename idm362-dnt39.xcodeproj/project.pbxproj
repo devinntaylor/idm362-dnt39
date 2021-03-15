@@ -11,6 +11,7 @@
 		6B1C6BF525DF207E00E6B439 /* Apercu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C6BF125DF207E00E6B439 /* Apercu.ttf */; };
 		6B1C6BF625DF207E00E6B439 /* Apercu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C6BF225DF207E00E6B439 /* Apercu-Light.ttf */; };
 		6B1C6BF725DF207E00E6B439 /* Apercu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C6BF325DF207E00E6B439 /* Apercu-Bold.ttf */; };
+		6B436A3D2600185E003A91BB /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6B436A3C2600185E003A91BB /* sounds */; };
 		6BBFCC8825BE3071005AE4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFCC8725BE3071005AE4C4 /* AppDelegate.swift */; };
 		6BBFCC8A25BE3071005AE4C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFCC8925BE3071005AE4C4 /* SceneDelegate.swift */; };
 		6BBFCC8C25BE3071005AE4C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFCC8B25BE3071005AE4C4 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		6B1C6BF125DF207E00E6B439 /* Apercu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apercu.ttf; sourceTree = "<group>"; };
 		6B1C6BF225DF207E00E6B439 /* Apercu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu-Light.ttf"; sourceTree = "<group>"; };
 		6B1C6BF325DF207E00E6B439 /* Apercu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apercu-Bold.ttf"; sourceTree = "<group>"; };
+		6B436A3C2600185E003A91BB /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = "../../OneDrive - DrexelUniversity/IDM 362/sounds"; sourceTree = "<group>"; };
 		6BBFCC8425BE3071005AE4C4 /* idm362-dnt39.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idm362-dnt39.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBFCC8725BE3071005AE4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BBFCC8925BE3071005AE4C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		6BBFCC7B25BE3071005AE4C4 = {
 			isa = PBXGroup;
 			children = (
+				6B436A3C2600185E003A91BB /* sounds */,
 				6B1C6BEF25DF207E00E6B439 /* fonts */,
 				6BBFCC8625BE3071005AE4C4 /* idm362-dnt39 */,
 				6BBFCC8525BE3071005AE4C4 /* Products */,
@@ -148,6 +151,7 @@
 				6BBFCC9425BE3075005AE4C4 /* LaunchScreen.storyboard in Resources */,
 				6B1C6BF625DF207E00E6B439 /* Apercu-Light.ttf in Resources */,
 				6BBFCC9125BE3075005AE4C4 /* Assets.xcassets in Resources */,
+				6B436A3D2600185E003A91BB /* sounds in Resources */,
 				6BBFCC8F25BE3071005AE4C4 /* Main.storyboard in Resources */,
 				6B1C6BF525DF207E00E6B439 /* Apercu.ttf in Resources */,
 				6B1C6BF425DF207E00E6B439 /* Apercu-Medium.ttf in Resources */,

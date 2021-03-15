@@ -6,6 +6,10 @@
 //
 
 import UIKit
+// Add audio and video library
+import AVFoundation
+
+var myAudioPlayerObj = AVAudioPlayer()
 
 class ViewController: UIViewController {
     
@@ -17,11 +21,13 @@ class ViewController: UIViewController {
         if (toggleFlag == true) {
             print("Toggle ON")
             breatheAnim.startAnimating()
+            myAudioPlayerObj.play()
             timeBtn.backgroundColor = UIColor.init(named: "StartAnim")
             toggleFlag = false
         } else {
             print("Toggle OFF")
             breatheAnim.stopAnimating()
+            myAudioPlayerObj.stop()
             timeBtn.backgroundColor = UIColor.init(named: "StopAnim")
             toggleFlag = true
         }
@@ -36,7 +42,29 @@ class ViewController: UIViewController {
         breatheAnim.animationDuration = 10
         breatheAnim.animationRepeatCount = 6
         breatheAnim.image = breatheAnim.animationImages?.first
+        
+        let mySound = Bundle.main.path(forResource: "sounds/breathe", ofType: "mp3")
+        
+        do {
+            myAudioPlayerObj = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: mySound!))
+            myAudioPlayerObj.prepareToPlay()
+            print("Sound file loaded and prepped")
+        } catch {
+            print(error)
+        }
+    } // viewDidLoad
+    
+    
+    @IBAction func playStopBreathe(_ sender: Any) {
+        print("playStopBreathe called")
+//        if (myAudioPlayerObj.isPlaying) {
+////            myAudioPlayerObj.stop()
+//        } else {
+////            myAudioPlayerObj.play()
+//        }
     }
+    
     
     func loadImages(for name: String) -> [UIImage] {
         print("Animated Images Loader Called")
@@ -51,4 +79,4 @@ class ViewController: UIViewController {
         return images
     }
     
-}
+} // ViewController
