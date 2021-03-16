@@ -32,19 +32,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="total time mindful breathing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSc-4G-EmD">
-                                <rect key="frame" x="58" y="179" width="208" height="20"/>
+                                <rect key="frame" x="58" y="179" width="209.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu-Light" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sessions completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkZ-wu-Hdt">
-                                <rect key="frame" x="58" y="281.5" width="152" height="20"/>
+                                <rect key="frame" x="58" y="281.5" width="148" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu-Light" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="average duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ug-c8-Uqe">
-                                <rect key="frame" x="58" y="393" width="128" height="20"/>
+                                <rect key="frame" x="58" y="393" width="126.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu-Light" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -81,31 +81,31 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3n-Ty-Rsp">
-                                <rect key="frame" x="58" y="213" width="22.5" height="47"/>
+                                <rect key="frame" x="58" y="213" width="24" height="48"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4G-nN-MVb">
-                                <rect key="frame" x="58" y="313.5" width="44.5" height="47"/>
+                                <rect key="frame" x="58" y="313.5" width="43" height="48"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMG-XF-1LC">
-                                <rect key="frame" x="58" y="427" width="22.5" height="49"/>
+                                <rect key="frame" x="58" y="427" width="23.5" height="49"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbp-xE-Tp8">
-                                <rect key="frame" x="88.5" y="234" width="43" height="20"/>
+                                <rect key="frame" x="90" y="234" width="43" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sessions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1Y-Wp-Qaq">
-                                <rect key="frame" x="110.5" y="336.5" width="66.5" height="20"/>
+                                <rect key="frame" x="109" y="336.5" width="63.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -125,7 +125,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWR-ia-oau">
-                                <rect key="frame" x="88.5" y="448" width="61" height="20"/>
+                                <rect key="frame" x="89.5" y="448" width="61" height="20"/>
                                 <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -192,7 +192,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZ4-lB-VVK">
-                                <rect key="frame" x="25" y="34" width="76.5" height="44"/>
+                                <rect key="frame" x="25" y="34" width="82.5" height="44"/>
                                 <fontDescription key="fontDescription" name="Apercu-Bold" family="Apercu-Bold" pointSize="30"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
@@ -223,7 +223,7 @@
                                             <action selector="timeBtnFun:" destination="RCJ-zQ-Be8" eventType="touchUpInside" id="EtF-dl-qCH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H73-Q0-iR6">
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H73-Q0-iR6">
                                         <rect key="frame" x="116.5" y="0.0" width="102" height="40"/>
                                         <color key="backgroundColor" red="0.55481702089999996" green="0.92149132489999996" blue="0.91765576599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
@@ -236,7 +236,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syy-FR-RJy">
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syy-FR-RJy">
                                         <rect key="frame" x="233.5" y="0.0" width="101.5" height="40"/>
                                         <color key="backgroundColor" red="0.55481702089999996" green="0.92149132489999996" blue="0.91765576599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="Apercu-Medium" family="Apercu-Medium" pointSize="17"/>
@@ -279,15 +279,18 @@
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" secondItem="asn-ZY-8nX" secondAttribute="trailing" constant="20" id="BoU-OT-vsq"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="bottom" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="85" id="Brz-jk-rbY"/>
                             <constraint firstItem="fZ4-lB-VVK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="25" id="FbU-B0-I2g"/>
-                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="DkU-ly-d0t" secondAttribute="top" constant="132" id="LSe-M7-FS0"/>
-                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="top" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="34" id="MYA-HB-slZ"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" relation="lessThanOrEqual" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="132" id="LSe-M7-FS0"/>
+                            <constraint firstItem="fZ4-lB-VVK" firstAttribute="top" relation="lessThanOrEqual" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="34" id="MYA-HB-slZ"/>
                             <constraint firstItem="rVR-wr-WoI" firstAttribute="centerX" secondItem="Sj7-nr-mse" secondAttribute="centerX" id="NoC-hU-ysD"/>
                             <constraint firstItem="OFv-L9-wtJ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fZ4-lB-VVK" secondAttribute="trailing" symbolic="YES" id="O3S-gr-PAy"/>
-                            <constraint firstItem="Sj7-nr-mse" firstAttribute="top" secondItem="rVR-wr-WoI" secondAttribute="bottom" constant="27" id="ObV-ih-nIM"/>
+                            <constraint firstItem="Sj7-nr-mse" firstAttribute="top" relation="lessThanOrEqual" secondItem="rVR-wr-WoI" secondAttribute="bottom" constant="27" id="ObV-ih-nIM"/>
                             <constraint firstItem="Sj7-nr-mse" firstAttribute="centerX" secondItem="DkU-ly-d0t" secondAttribute="centerX" id="OqP-VY-HMY"/>
                             <constraint firstItem="wdT-56-bkK" firstAttribute="top" secondItem="fZ4-lB-VVK" secondAttribute="bottom" constant="8.5" id="R5s-Z9-P9A"/>
+                            <constraint firstItem="wdT-56-bkK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="OFv-L9-wtJ" secondAttribute="top" constant="86.5" id="XBG-Vc-DoW"/>
+                            <constraint firstItem="asn-ZY-8nX" firstAttribute="top" relation="lessThanOrEqual" secondItem="rVR-wr-WoI" secondAttribute="bottom" constant="67" id="cZ8-fo-2cp"/>
+                            <constraint firstItem="OFv-L9-wtJ" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="asn-ZY-8nX" secondAttribute="bottom" constant="29" id="gjs-e0-k6v"/>
                             <constraint firstItem="wdT-56-bkK" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="25" id="gvn-WY-7cL"/>
-                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" secondItem="wdT-56-bkK" secondAttribute="bottom" constant="25" id="qcw-J4-8Fc"/>
+                            <constraint firstItem="rVR-wr-WoI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wdT-56-bkK" secondAttribute="bottom" constant="25" id="qcw-J4-8Fc"/>
                             <constraint firstItem="asn-ZY-8nX" firstAttribute="top" secondItem="Sj7-nr-mse" secondAttribute="bottom" constant="16" id="tFL-Ac-mmp"/>
                             <constraint firstItem="wdT-56-bkK" firstAttribute="centerX" secondItem="DkU-ly-d0t" secondAttribute="centerX" id="uBU-jG-Pm1"/>
                             <constraint firstItem="rVR-wr-WoI" firstAttribute="leading" secondItem="OFv-L9-wtJ" secondAttribute="leading" constant="13" id="ub4-JN-ohx"/>
